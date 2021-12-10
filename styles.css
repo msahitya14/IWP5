@@ -1,0 +1,86 @@
+body {
+  box-sizing: border-box;
+  margin: 0 10%;
+  padding: 0 5%;
+  text-align: center;
+  background-color: rgb(196, 200, 255);
+  align-content: center;
+}
+option {
+  text-align: center;
+  color: black;
+}
+label {
+  font-size: 1.2rem;
+  color: white;
+}
+select {
+  background-color: white;
+}
+option {
+  color: black;
+}
+div {
+  margin: 5% 0;
+}
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav button,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a:hover,
+.dropdown-btn:hover {
+  color: #e43c36;
+}
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.active {
+  background-color: rgb(242, 245, 67);
+  color: white;
+}
+.dropdown-container {
+  display: none;
+  background-color: rgb(193, 193, 233);
+  padding-left: 8px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.hidden {
+  display: none;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table,
+td,
+tr {
+  text-align: center;
+  border: 2px solid black;
+}
